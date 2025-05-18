@@ -98,3 +98,85 @@
 .section-header {
     margin-top: 6rem;
 }
+
+
+
+.section1 {
+    height: 1100px;
+    display: flex;
+    align-items: center;
+}
+
+.section-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-flex-img img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+.section1-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.section1-box-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    gap: 10px;
+}
+
+.section-flex-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.section1-box-text h1 {
+    font-size: 20px;
+}
+
+.section1-box-text p {
+    line-height: 30px;
+    color: #262626;
+}
+
+.section1-main-text {
+    width: 440px;
+}
+
+
+.section2 {
+    background: linear-gradient(to right, black 0%, black 50%, #d9fff0 60%, #d9fff0 100%);
+}
+
+.section2-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section2-flex-text {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.section2-flex-text h1 {
+    font-size: 40px;
+}
+
+.section2-flex-text p {
+    line-height: 30px;
+    font-size: 15px;
+    color: #262626;
+}

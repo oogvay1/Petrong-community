@@ -1,7 +1,9 @@
-.rasmlar img{
+
+.rasmlar{
     display: flex;
     align-items: center;
     position: relative;
+    
 }
 
 .rasm img{
@@ -22,7 +24,7 @@
 .rasm3 img{
      position: absolute;
     left: 1100px;
-    top: 420px;
+    top: 450px;
 }
 
 .rasm4 img{
@@ -33,4 +35,226 @@
     left: 200px;
     z-index: 2;
     border-radius: 10px;    
+}
+.rasm5 img{
+    width: 44px;
+    height: 2px;
+     position: absolute;
+     left: 670px;
+    top: 305px;
+}
+.word p{
+    font-size: 24px;
+    position: absolute;
+    left: 750px;
+    top: 285px;
+}
+.word2 p{
+    
+    font-size: 30px;
+    position: absolute;
+    top: 330px;
+    left: 670px;
+}
+.section{
+    background-color: #000 ; 
+    
+}
+.words{
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 102px;
+    
+}
+.words h2{
+    font-size: 30px;
+}
+.words p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.rasm6 img{
+    width: 80px;
+    height: 80px;
+ 
+    
+    margin-left: 1080px;
+}
+.rasmlar {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    
+}
+.rasm7 img{
+    margin-left: 100px;
+    width: 1079px;
+    height: 450px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.texts{
+    margin-top: 70px;
+    margin-left: 100px;
+    position: relative;
+}
+.words2 h2{
+    font-size: 36px;
+}
+.words2 p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.buttons button{
+    
+    position: relative;
+    background-color: #EBFAF4;
+    width: 215px;
+    height: 137px;
+    border-radius: 10px;
+    border: none;
+    
+
+
+}
+
+.buttons button h2{
+    color: #00D285;
+   
+    
+}
+.section2{
+    height: 293px;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    
+    background-color: #EBFAF4;
+}
+.words3{
+    display: flex;
+    margin-top: 100px;
+   
+    margin-left: 100px;
+}
+.word3 h2{
+    
+    font-size: 40px;
+    
+}
+.words3 p{
+    font-size: 18px;
+    margin-top: 10px;
+    color: #C4C4C4;
+    
+}
+.btn3 button{
+    background-color: #00D285;
+    border: none;
+    width: 200px;
+    height: 60px;
+    border-radius: 100px;
+    margin-left: 420px;
+}
+footer{
+    background-color: #00091e;
+    padding: 50px 40px 40px 14px;
+
+}
+.foot_cards{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 120px;
+}
+.foot_card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+}
+.foot_card h4{
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+}
+.foot_card_block{
+    display: flex;
+    gap: 20px;
+    text-align: left;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+.foot_card_block_one ul li a,
+.foot_card_block_two ul li a{
+    color: #C4C4C4;
+}
+.foot_icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.foot_icon{
+    background-color: #000D2F;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.foot_icon:hover{
+    background-color: #fff;
+    color: #000D2F;
+}
+.card_nunmber{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.card_nunmber a{
+    color: #fff;
+}
+.card_nunmber a span{
+    color: #00D285;
+}
+.foot_card_img{
+    margin-top: 60px;
+}
+.footer_end_block{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 115px;
+}
+.footer_end_block a{
+    color: #fff;
+}
+.restart_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    background-color: #fff;
+    color: black;
+    font-size: 30px;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.restart_btn:hover{
+    background-color: #000;
+    color: #fff;
 }

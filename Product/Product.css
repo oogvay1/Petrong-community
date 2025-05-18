@@ -1,0 +1,39 @@
+
+
+.header-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.ziffler h1 {
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.ziffler p {
+  font-size: 20px;
+  color: #333;
+  max-width: 700px;
+  line-height: 30px;
+  margin: 0 auto;
+}
+
+
+.header-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background: url('wave-line.svg') no-repeat;
+  background-size: contain;
+  opacity: 0.4;
+}

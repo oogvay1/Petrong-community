@@ -1,0 +1,99 @@
+.section {
+    width: 1280px;
+    height: 523px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.title {
+    margin: 0 auto;
+    width: 1200px;
+    height: 22px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: #00D285;
+}
+.ul input{
+    width: 228px;
+    height: 43px;
+    border-radius: 3rem;
+
+}
+.section{
+    gap: 10px;
+}
+.section img {
+    width: 1280px;
+    height: 377px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul {
+    width: 1280px;
+    height: 98px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ul a {
+    font-size: 14px;
+}
+
+.card-flex {
+    width: 500px;
+    height: 393px;
+    display: flex;
+    justify-content: space-between;
+    gap: 130px;
+}
+
+.card-flex2 {
+    width: 333px;
+    height: 393px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card {
+    width: 330px;
+    height: 393px;
+}
+
+.text h1 {
+    font-size: 16px;
+    width: 333px;
+    height: 45px;
+    margin-top: 1rem;
+    color: #00D285;
+}
+
+.tetx p {
+    width: 290px;
+    height: 58px;
+    font-size: 13px;
+    color: #000;
+}
+
+.button {
+    width: 90px;
+    height: 20px;
+    background-color: #00D285;
+    color: #fff;
+    transition: 0.7s;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 12px;
+    border: 2px solid #00D285;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #00D285;
+}

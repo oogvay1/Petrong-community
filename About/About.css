@@ -1,6 +1,12 @@
 header {
+    width: 100%;
+    background-color: black;
+}
+
+.blue_section {
   background: #ebfaf4;
   padding-bottom: 140px;
+  padding-top: 130px;
 }
 .abot_header_page {
   display: flex;
